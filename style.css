@@ -9,7 +9,7 @@
 body {
 background-color: hsl(0, 100%, 74%);
 font-family: 'Poppins', sans-serif;
-background-image: url("/images/bg-intro-mobile.png");
+background-image: url("images/bg-intro-mobile.png");
 background-size: 100%;
 }
 
@@ -126,7 +126,7 @@ input {
         padding-right: 9.375rem;
     }
     body {
-        background-image: url("/images/bg-intro-mobile.png");
+        background-image: url("images/bg-intro-mobile.png");
         background-size: auto;
     }
     .container {
