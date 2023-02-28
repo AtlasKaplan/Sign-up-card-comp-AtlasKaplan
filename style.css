@@ -1,5 +1,141 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+background-color: hsl(0, 100%, 74%);
+font-family: 'Poppins', sans-serif;
+background-image: url("/images/bg-intro-mobile.png");
+background-size: 100%;
+}
+
+h1 {
+    margin-bottom: 1.5625rem;
+}
+
+.container {
+    height: 90vh;
+    max-width: 80vw;
+    margin: 3.15rem auto .75rem;
+}
+
+
+.seccion1 {
+    color: white;
+    text-align: center;
+    min-height: 35%;
+}
+.seccion1 p {
+    padding: 0 0.5rem;
+    line-height: 1.5;
+}
+
+.btn-try {
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    min-height: 4rem;
+    width: 100%;
+    padding: 0 4.6875rem;
+    margin-bottom: 1.25rem;
+    line-height: 1.5;
+    border: none;
+    color: hsl(246, 25%, 77%);
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.btn-try:hover {
+    background-color: hsl(248, 35%, 36%);
+}
+
+.seccion2 span {
+    color: white;
+    cursor: pointer;
+}
+
+.seccion2 {
+    height: 70%;
+    text-align: center;
+    
+}
+
+
+.cuestionario {
+    background-color: white;
+    min-height: 80%;
+    border-radius: 15px;
+}
+
+.btn-claim {
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    width: 85%;
+    color: white;
+    font-weight: 700;
+    margin: 1.25rem 0;
+    cursor: pointer;
+}
+.btn-claim:hover {
+    background-color: hsl(154, 59%, 51%, 75%);
+}
+.final p {
+    font-size: 12px;
+    padding: 0 40px 1.5625rem;
+    font-weight: 500;
+    color: hsl(246, 25%, 77%);
+}
+
+.final span {
+    color: red;
+    font-weight: 700;
+}
+footer {
+    text-align: center;
+}
+
+input {
+    height: 3.125rem;
+    width: 85%;
+    margin-top: 20px;
+    padding-left: 15px;
+    font-weight: 700;
+}
+
+
+
+@media (min-width:1392px) {
+    
+    body {
+        background-image: url("/images/bg-intro-mobile.png");
+        background-size: auto;
+    }
+    .container {
+        display: flex;
+        margin-top: 150px;
+        padding: 0 1.5625rem;
+    }
+
+    .seccion1 {
+        text-align: left;
+        padding: 150px 0;
+        margin-left: 2.1875rem;
+    }
+
+    .cuestionario {
+        width: 31.25rem;
+    }
+
+    h1 { 
+        padding-right: 12.5rem;
+        font-size: 2.75rem;
+    }
+    .seccion1 p {
+        padding-right: 6.25rem;
+    }
+}
