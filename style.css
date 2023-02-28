@@ -117,7 +117,9 @@ input {
 
 
 @media (min-width:1392px) {
-    
+    main {
+        padding-right: 9.375rem;
+    }
     body {
         background-image: url("/images/bg-intro-mobile.png");
         background-size: auto;
