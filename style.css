@@ -98,6 +98,11 @@ h1 {
 }
 header {
     text-align: center;
+    color: white;
+}
+
+a {
+    color: black;
 }
 
 input {
